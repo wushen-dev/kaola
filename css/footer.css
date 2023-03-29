@@ -1,0 +1,44 @@
+/* footer区域 */
+.footer {
+    width: 100%;
+    height: 146px;
+    background-color: #333;
+    padding: 20px 0 15px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+.footer .aboutNest {
+    width: 1090px;
+    margin: 0 auto;
+    /* height:126px; */
+    text-align: center;
+}
+
+.footer .aboutNest .textFloor {
+    width: 1090px;
+    height: 26px;
+    line-height: 26px;
+    color: #c2c2c2;
+}
+
+.footer .aboutNest .textFloor span {
+    margin-left: 20px;
+}
+
+.footer .aboutNest .textFloor a {
+    display: inline-block;
+    color: #c2c2c2;
+}
+
+.footer .aboutNest .textFloor a:hover {
+    text-decoration: underline;
+}
+
+.footer .aboutNest .lastFloor a {
+    margin-right: 5px;
+}
+
+.footer .aboutNest .lastFloor a img {
+    height: 30px;
+}

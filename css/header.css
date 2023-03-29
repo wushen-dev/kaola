@@ -1,0 +1,87 @@
+/* 头部 */
+.header {
+    background-color: #000000;
+}
+
+.headerNav {
+    height: 30px;
+    line-height: 30px;
+    /* background-color: aqua; */
+}
+
+/* 头部左边导航 */
+.headerNav_left ul li {
+    float: left;
+    /* padding: 0 15px; */
+    margin-left: 15px;
+    color: #999;
+    font-size: 12px;
+}
+
+.headerNav_left ul li a {
+    color: #999;
+    font-size: 12px;
+}
+
+.headerNav_left ul li a:hover {
+    color: #fff;
+}
+
+/* 头部右边导航栏 */
+.headerNav_right ul li {
+    float: left;
+    color: #999;
+    font-size: 12px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.headerNav_right ul li a {
+    color: #999;
+    font-size: 12px;
+}
+
+.headerNav_right ul li a:hover {
+    color: #fff;
+}
+
+.headerNav_right ul .icon-xiala {
+    margin-left: -5px;
+    margin-top: -2px;
+    /* vertical-align: middle; */
+    font-size: 12px;
+}
+
+/* 头部二级导航 */
+.headChildList {
+    width: 118px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    z-index: 999;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+/* 头部一级导航划过出现 */
+.headerNav_right ul li:hover .headChildList {
+    display: block;
+}
+
+.headerNav_right .headChildList .xiala dd {
+    width: 100px;
+    height: 34px;
+    text-align: center;
+}
+
+.headerNav_right .headChildList .xiala dd:nth-child(4),
+.headerNav_right .headChildList .xiala dd:nth-child(6),
+.headerNav_right .headChildList .xiala dd:nth-child(8) {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.headerNav_right .headChildList .xiala dd a:hover {
+    color: #ff2337;
+}
